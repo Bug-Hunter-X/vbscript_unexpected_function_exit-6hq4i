@@ -1,0 +1,1 @@
+This repository demonstrates a common yet easily overlooked error in VBScript functions: premature exit without a return value.  The `bug.vbs` file shows a function that exits early using `Exit Function` under a certain condition. This can lead to unexpected behavior if the calling code relies on a return value. The `bugSolution.vbs` provides a corrected version.
